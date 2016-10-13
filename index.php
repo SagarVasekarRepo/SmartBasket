@@ -6,173 +6,37 @@
 <!--<![endif]-->
 
 <!-- Head BEGIN -->
-<head>
-  <meta charset="utf-8">
-  <title>Smart Basket - Empowering live</title>
-
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-  <meta content="Metronic Shop UI description" name="description">
-  <meta content="Metronic Shop UI keywords" name="keywords">
-  <meta content="keenthemes" name="author">
-
-  <meta property="og:site_name" content="-CUSTOMER VALUE-">
-  <meta property="og:title" content="-CUSTOMER VALUE-">
-  <meta property="og:description" content="-CUSTOMER VALUE-">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="-CUSTOMER VALUE-"><!-- link to image for socio -->
-  <meta property="og:url" content="-CUSTOMER VALUE-">
-
-  <link rel="shortcut icon" href="favicon.ico">
-
-  <!-- Fonts START -->
-  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|PT+Sans+Narrow|Source+Sans+Pro:200,300,400,600,700,900&amp;subset=all" rel="stylesheet" type="text/css">
-  <!-- Fonts END -->
-
-  <!-- Global styles START -->          
-  <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Global styles END --> 
-   
-  <!-- Page level plugin styles START -->
-  <link href="assets/pages/css/animate.css" rel="stylesheet">
-  <link href="assets/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet">
-  <link href="assets/plugins/owl.carousel/assets/owl.carousel.css" rel="stylesheet">
-  <!-- Page level plugin styles END -->
-
-  <!-- Theme styles START -->
-  <link href="assets/pages/css/components.css" rel="stylesheet">
-  <link href="assets/pages/css/slider.css" rel="stylesheet">
-  <link href="assets/corporate/css/style.css" rel="stylesheet">
-  <link href="assets/corporate/css/style-responsive.css" rel="stylesheet">
-  <link href="assets/corporate/css/themes/red.css" rel="stylesheet" id="style-color">
-  <link href="assets/corporate/css/custom.css" rel="stylesheet">
-  <!-- Theme styles END -->
-</head>
+<?php
+require_once "head.php"
+?>
 <!-- Head END -->
 
 <!-- Body BEGIN -->
 <body class="corporate">
     <!-- BEGIN STYLE CUSTOMIZER -->
-    <div class="color-panel hidden-sm">
-      <div class="color-mode-icons icon-color"></div>
-      <div class="color-mode-icons icon-color-close"></div>
-      <div class="color-mode">
-        <p>THEME COLOR</p>
-        <ul class="inline">
-          <li class="color-red current color-default" data-style="red"></li>
-          <li class="color-blue" data-style="blue"></li>
-          <li class="color-green" data-style="green"></li>
-          <li class="color-orange" data-style="orange"></li>
-          <li class="color-gray" data-style="gray"></li>
-          <li class="color-turquoise" data-style="turquoise"></li>
-        </ul>
-      </div>
-    </div>
-    <!-- END BEGIN STYLE CUSTOMIZER --> 
+    <?php
+    require_once "style.php"
+    ?>
+    <!-- END STYLE CUSTOMIZER -->
 
-    <!-- BEGIN TOP BAR -->
-    <div class="pre-header">
-        <div class="container">
-            <div class="row">
-                <!-- BEGIN TOP BAR LEFT PART -->
-                <div class="col-md-6 col-sm-6 additional-shop-info">
-                    <ul class="list-unstyled list-inline">
-                        <li><i class="fa fa-phone"></i><span>+1 385 499 7759</span></li>
-                        <li><i class="fa fa-envelope-o"></i><span>info@smartbasket.com</span></li>
-                    </ul>
-                </div>
-                <!-- END TOP BAR LEFT PART -->
-                <!-- BEGIN TOP BAR MENU -->
-                <div class="col-md-6 col-sm-6 additional-nav">
-                    <ul class="list-unstyled list-inline pull-right">
-                        <li><a href="page-login.html">Log In</a></li>
-                        <li><a href="page-reg-page.html">Registration</a></li>
-                    </ul>
-                </div>
-                <!-- END TOP BAR MENU -->
-            </div>
-        </div>        
-    </div>
-    <!-- END TOP BAR -->
+    <!-- Top Bar BEGIN -->
+    <?php
+    require_once "topbar.php"
+
+    ?>
+    <!-- Top Bar END -->
+
     <!-- BEGIN HEADER -->
     <div class="header">
       <div class="container">
-        <a class="site-logo" href="index.html"><img src="assets/corporate/img/logos/logo-corp-red.png" alt="Smart Basket"></a>
+        <a class="site-logo" href="index.php"><img src="assets/corporate/img/logos/logo-corp-red.png" alt="Smart Basket"></a>
 
         <a href="javascript:void(0);" class="mobi-toggler"><i class="fa fa-bars"></i></a>
 
         <!-- BEGIN NAVIGATION -->
-        <div class="header-navigation pull-right font-transform-inherit">
-          <ul>
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-target="#" href="javascript:;">
-                Home 
-                
-              </a>
-            </li>
-           
-
-
-
-
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="javascript:;">
-                Help
-                
-              </a>
-                
-
-            </li>
-
-            <li class="dropdown dropdown-megamenu">
-              <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="javascript:;">
-                About Us
-
-              </a>
-
-            </li>
-
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="javascript:;">
-                Contact Us
-                
-              </a>
-                
-
-            </li>
-
-             <li class="dropdown dropdown-megamenu">
-              <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="javascript:;">
-                Feedback
-                
-              </a>
-
-            </li>
-
-            
-            
-
-
-            <!-- BEGIN TOP SEARCH -->
-            <li class="menu-search">
-              <span class="sep"></span>
-              <i class="fa fa-search search-btn"></i>
-              <div class="search-box">
-                <form action="#">
-                  <div class="input-group">
-                    <input type="text" placeholder="Search" class="form-control">
-                    <span class="input-group-btn">
-                      <button class="btn btn-primary" type="submit">Search</button>
-                    </span>
-                  </div>
-                </form>
-              </div> 
-            </li>
-            <!-- END TOP SEARCH -->
-          </ul>
-        </div>
+          <?php
+          require_once "navigation.php"
+          ?>
         <!-- END NAVIGATION -->
       </div>
     </div>
@@ -322,61 +186,7 @@
                   <strong>Shopping List</strong>
                 </a>
               </div>
-              <div class="recent-work-item">
-                <em>
-                  <img src="assets/pages/img/works/img4.jpg" alt="Amazing Project" class="img-responsive">
-                  <a href="portfolio-item.html"><i class="fa fa-link"></i></a>
-                  <a href="assets/pages/img/works/img4.jpg" class="fancybox-button" title="Project Name #4" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
-                </em>
-                <a class="recent-work-description" href="javascript:;">
-                  <strong>Amazing Project</strong>
-                  <b>Agenda corp.</b>
-                </a>
-              </div>
-              <div class="recent-work-item">
-                <em>
-                  <img src="assets/pages/img/works/img5.jpg" alt="Amazing Project" class="img-responsive">
-                  <a href="portfolio-item.html"><i class="fa fa-link"></i></a>
-                  <a href="assets/pages/img/works/img5.jpg" class="fancybox-button" title="Project Name #5" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
-                </em>
-                <a class="recent-work-description" href="javascript:;">
-                  <strong>Amazing Project</strong>
-                  <b>Agenda corp.</b>
-                </a>
-              </div>
-              <div class="recent-work-item">
-                <em>
-                  <img src="assets/pages/img/works/img6.jpg" alt="Amazing Project" class="img-responsive">
-                  <a href="portfolio-item.html"><i class="fa fa-link"></i></a>
-                  <a href="assets/pages/img/works/img6.jpg" class="fancybox-button" title="Project Name #6" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
-                </em>
-                <a class="recent-work-description" href="javascript:;">
-                  <strong>Amazing Project</strong>
-                  <b>Agenda corp.</b>
-                </a>
-              </div>
-              <div class="recent-work-item">
-                <em>
-                  <img src="assets/pages/img/works/img3.jpg" alt="Amazing Project" class="img-responsive">
-                  <a href="portfolio-item.html"><i class="fa fa-link"></i></a>
-                  <a href="assets/pages/img/works/img3.jpg" class="fancybox-button" title="Project Name #3" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
-                </em>
-                <a class="recent-work-description" href="javascript:;">
-                  <strong>Amazing Project</strong>
-                  <b>Agenda corp.</b>
-                </a>
-              </div>
-              <div class="recent-work-item">
-                <em>
-                  <img src="assets/pages/img/works/img4.jpg" alt="Amazing Project" class="img-responsive">
-                  <a href="portfolio-item.html"><i class="fa fa-link"></i></a>
-                  <a href="assets/pages/img/works/img4.jpg" class="fancybox-button" title="Project Name #4" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
-                </em>
-                <a class="recent-work-description" href="javascript:;">
-                  <strong>Amazing Project</strong>
-                  <b>Agenda corp.</b>
-                </a>
-              </div>
+
             </div>       
           </div>
         </div>   
@@ -498,84 +308,12 @@
       </div>
     </div>
 
-    <!-- BEGIN PRE-FOOTER -->
-    <div class="pre-footer">
-      <div class="container">
-        <div class="row">
-          <!-- BEGIN BOTTOM ABOUT BLOCK -->
-          <div class="col-md-4 col-sm-6 pre-footer-col">
-            <h2>About us</h2>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam sit nonummy nibh euismod tincidunt ut laoreet dolore magna aliquarm erat sit volutpat.</p>
+    <?php
+    require_once "footer.php";
 
-            <div class="photo-stream">
-
-              <ul class="list-unstyled">
-                <li><a href="javascript:;"><img alt="" src="assets/pages/img/people/img5-small.jpg"></a></li>
-                <li><a href="javascript:;"><img alt="" src="assets/pages/img/works/img1.jpg"></a></li>
-                <li><a href="javascript:;"><img alt="" src="assets/pages/img/people/img4-large.jpg"></a></li>
-
-              </ul>                    
-            </div>
-          </div>
-          <!-- END BOTTOM ABOUT BLOCK -->
-
-          <!-- BEGIN BOTTOM CONTACTS -->
-          <div class="col-md-4 col-sm-6 pre-footer-col">
-            <h2>Our Contacts</h2>
-            <address class="margin-bottom-40">
-              1200 South, 730 East<br>
-              Salt Lake City, US<br>
-              Phone: +1 385 499 7759<br>
-              Email: <a href="mailto:info@metronic.com">shrikant.tambe@utah.edu</a><br>
-              Skype: <a href="skype:metronic">sst_shrikant@gmail.com</a>
-            </address>
-
-          </div>
-          <!-- END BOTTOM CONTACTS -->
-
-          <!-- BEGIN TWITTER BLOCK --> 
-          <div class="col-md-4 col-sm-6 pre-footer-col">
-            <h2 class="margin-bottom-0">Latest Tweets</h2>
-
-          </div>
-          <!-- END TWITTER BLOCK -->
-        </div>
-      </div>
-    </div>
-    <!-- END PRE-FOOTER -->
-
-    <!-- BEGIN FOOTER -->
-    <div class="footer">
-      <div class="container">
-        <div class="row">
-          <!-- BEGIN COPYRIGHT -->
-          <div class="col-md-4 col-sm-4 padding-top-10">
-            2015 © ALL Rights Reserved. <a href="javascript:;">Privacy Policy</a> | <a href="javascript:;">Terms of Service</a>
-          </div>
-          <!-- END COPYRIGHT -->
-          <!-- BEGIN PAYMENTS -->
-          <div class="col-md-4 col-sm-4">
-            <ul class="social-footer list-unstyled list-inline pull-right">
-              <li><a href="javascript:;"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="javascript:;"><i class="fa fa-google-plus"></i></a></li>
-              <li><a href="javascript:;"><i class="fa fa-linkedin"></i></a></li>
-              <li><a href="javascript:;"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="javascript:;"><i class="fa fa-skype"></i></a></li>
-              <li><a href="javascript:;"><i class="fa fa-github"></i></a></li>
-              <li><a href="javascript:;"><i class="fa fa-youtube"></i></a></li>
-
-            </ul>  
-          </div>
-          <!-- END PAYMENTS -->
-          <!-- BEGIN POWERED -->
-          <div class="col-md-4 col-sm-4 text-right">
-            <p class="powered">Powered by: <a href="http://www.keenthemes.com/">KeenThemes.com</a></p>
-          </div>
-          <!-- END POWERED -->
-        </div>
-      </div>
-    </div>
-    <!-- END FOOTER -->
+    //handle the form post here
+    //create your form below. <form> tags already there for you...
+    ?>
 
     <!-- Load javascripts at bottom, this will reduce page load time -->
     <!-- BEGIN CORE PLUGINS (REQUIRED FOR ALL PAGES) -->
