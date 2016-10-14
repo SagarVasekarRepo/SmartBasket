@@ -74,7 +74,7 @@ require_once "head.php"
                     <div class="container">
                         <div class="carousel-position-new2">
                             <h2 class="animate-delay carousel-title-v6 text-uppercase" data-animation="animated fadeInDown">
-                              Making grocery <br>shopping more<br> convenient  <!--Need a website design-->
+                              Making grocery <br>shopping more<br> convenient 
                             </h2>
 
                             <a class="carousel-btn-green" href="#" data-animation="animated fadeInUp">REGISTER NOW!</a>
