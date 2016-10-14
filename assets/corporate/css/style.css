@@ -516,6 +516,7 @@ body.page-header-fixed {
 	border-bottom: 2px solid #e64f00;
 }
 
+
 /* dropdown menu */
 @media (min-width: 1025px) {
 	.header-navigation > ul > li:hover > .dropdown-menu {

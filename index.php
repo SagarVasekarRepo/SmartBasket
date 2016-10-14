@@ -2,6 +2,7 @@
 <!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
 <!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
 <!--[if !IE]><!-->
+<?php $thisPage="Home"; ?>
 <html lang="en">
 <!--<![endif]-->
 
@@ -158,7 +159,7 @@ require_once "head.php"
             <div class="owl-carousel owl-carousel3">
               <div class="recent-work-item">
                 <em>
-                  <img src="assets/pics/recipes.png" alt="Amazing Project" class="img-responsive">
+                  <img src="assets/pages/img/photos/recipes.png" alt="Amazing Project" class="img-responsive">
                   <a href="recipes.html"><i class="fa fa-link"></i></a>
 
                 </em>
@@ -168,7 +169,7 @@ require_once "head.php"
               </div>
               <div class="recent-work-item">
                 <em>
-                  <img src="assets/pics/basket.png" alt="Amazing Project" class="img-responsive">
+                  <img src="assets/pages/img/photos/basket.png" alt="Amazing Project" class="img-responsive">
                   <a href="basket.html"><i class="fa fa-link"></i></a>
 
                 </em>
@@ -178,7 +179,7 @@ require_once "head.php"
               </div>
               <div class="recent-work-item">
                 <em>
-                  <img src="assets/pics/list.png" alt="Amazing Project" class="img-responsive">
+                  <img src="assets/pages/img/photos/list.png" alt="Amazing Project" class="img-responsive">
                   <a href="list.html"><i class="fa fa-link"></i></a>
 
                 </em>
@@ -332,16 +333,11 @@ require_once "head.php"
 
     <script src="assets/corporate/scripts/layout.js" type="text/javascript"></script>
     <script src="assets/pages/scripts/bs-carousel.js" type="text/javascript"></script>
-    <script type="text/javascript">
-        jQuery(document).ready(function() {
-            Layout.init();    
-            Layout.initOWL();
-            Layout.initTwitter();
-            //Layout.initFixHeaderWithPreHeader(); /* Switch On Header Fixing (only if you have pre-header) */
-            //Layout.initNavScrolling(); 
-        });
-    </script>
+
+
     <!-- END PAGE LEVEL JAVASCRIPTS -->
+
+
 </body>
 <!-- END BODY -->
 </html>

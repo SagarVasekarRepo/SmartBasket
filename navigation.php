@@ -1,7 +1,20 @@
 <!-- BEGIN NAVIGATION -->
 <div class="header-navigation pull-right font-transform-inherit">
     <ul>
+        <?php
+        if($thisPage == "Home")
+        {
+        ?>
         <li class="dropdown active">
+            <?php
+            }
+            else
+            {
+            ?>
+        <li class="dropdown">
+        <?php
+        }
+        ?>
             <a href="index.php">
                 Home
             </a>
@@ -11,12 +24,38 @@
                 Help
             </a>
         </li>
-        <li class="dropdown dropdown-megamenu">
-            <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="javascript:;">
+        <?php
+        if($thisPage == "About Us")
+        {
+        ?>
+        <li class="dropdown active">
+            <?php
+            }
+            else
+            {
+            ?>
+        <li class="dropdown">
+            <?php
+            }
+            ?>
+            <a href="aboutus.php">
                 About Us
             </a>
         </li>
+        <?php
+        if($thisPage == "Contact Us")
+        {
+        ?>
+        <li class="dropdown active">
+            <?php
+            }
+            else
+            {
+            ?>
         <li class="dropdown">
+        <?php
+        }
+        ?>
             <a href="page-contacts.php">
                 Contact Us
             </a>
