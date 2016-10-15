@@ -2628,6 +2628,9 @@ input[type="search"] {
 }
 .form-group {
   margin-bottom: 15px;
+  color: Black !important;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, sans-serif;
+  font-size: 14px;
 }
 .radio,
 .checkbox {
@@ -5893,6 +5896,10 @@ button.list-group-item-danger.active:focus {
   text-shadow: 0 1px 0 #fff;
   filter: alpha(opacity=20);
   opacity: .2;
+}
+.close-heading
+{
+  font-size: 0.8em;
 }
 .close:hover,
 .close:focus {

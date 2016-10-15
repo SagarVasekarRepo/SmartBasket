@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="MySQL - smartbasket@localhost" uuid="a7864046-a983-4418-95a4-0c5c0912064c">
+    <data-source source="LOCAL" name="MySQL - SmartBasket@localhost" uuid="f63e3a1b-68fc-44ec-93fd-cb8abf75c90f">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/smartbasket</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/SmartBasket</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />

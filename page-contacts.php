@@ -21,7 +21,16 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
 require_once "head.php"
 ?>
 <!-- Head END -->
+<style>
+  .form-all {
 
+    padding-top: 0px;
+    width: 690px;
+    color: Black !important;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, sans-serif;
+    font-size: 14px;
+  }
+  </style>
 <!-- Body BEGIN -->
 <body class="corporate">
     <!-- BEGIN STYLE CUSTOMIZER -->
@@ -59,21 +68,23 @@ require_once "head.php"
       <div class="container">
         <ul class="breadcrumb">
             <li><a href="index.php">Home</a></li>
-            <li class="active">Contact Us</li>
+            <li class="active">Feedback</li>
         </ul>
         <div class="row margin-bottom-40">
           <!-- BEGIN CONTENT -->
+
           <div class="col-md-12">
             <h1>Contact Us</h1>
             <div class="content-page">
               <div class="row">
 
                 <div class="col-md-9 col-sm-9">
-                  <h2>Feel free to reach out to us...</h2>
+                  <h4>Feel free to reach out to us...</h4>
                   <p>You're not going to hit a ridiculously long phone call when you call us. Your email isn't going to Inbox abyss, never to be seen or heard from again. At Smart Basket, we provide exceptional service we'd want to experience ourselves!</p>
                   
                   <!-- BEGIN FORM-->
                   <form action="#" role="form">
+                    <div class="form-all">
                     <div class="form-group">
                       <label for="contacts-name">Name</label>
                       <input type="text" class="form-control" id="contacts-name">
@@ -93,6 +104,7 @@ require_once "head.php"
                     <button type="submit" class="btn btn-primary"><i class="icon-ok"></i> Send</button>
                     <button type="button" class="btn btn-default">Cancel</button>
                   </form>
+                  </div>
                   <!-- END FORM-->
                 </div>
 
@@ -128,6 +140,7 @@ require_once "head.php"
               </div>
             </div>
           </div>
+            </div>
           <!-- END CONTENT -->
         </div>
       </div>

@@ -517,6 +517,358 @@ body.page-header-fixed {
 }
 
 
+.login-main {
+	width: 20%;
+	margin: 0 auto;
+	background: #FFFFFF;
+	background-size: cover;
+	max-height: 400px;
+	box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.15);
+}
+.login-page {
+	padding: 6.5em 0em;
+}
+.login-head {
+	background: url(../img/login.jpg)no-repeat;
+	background-size: cover;
+	min-height: 150px;
+}
+.login-head h1 {
+	font-size:3em;
+	color:#FFF;
+	padding: 1em 0em 0em 0em;
+	text-align: center;
+	font-family: 'Carrois Gothic', sans-serif;
+}
+.login-block {
+	padding: 4em 2em;
+}
+.login-block input[type="text"], .login-block input[type="password"] {
+	font-size: 0.9em;
+	padding: 10px 20px;
+	width: 100%;
+	color:#8C8C8C;
+	outline: none;
+	border: 1px solid #D3D3D3;
+	border-radius: 5px;
+	-ms-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	background:#F5F5F5;
+	margin: 0em 0em 1.5em 0em;
+}
+.login-block input[type="submit"] {
+	border: none;
+	outline: none;
+	cursor: pointer;
+	color: #fff;
+	background: #337AB7;
+	width: 100%;
+	margin: 0 auto;
+	border-radius: 3px;
+	padding: 0.5em 1em;
+	font-size: 1em;
+	display: block;
+	font-family: 'Carrois Gothic', sans-serif;
+}
+.login-block input[type="submit"]:hover{
+	background:#68AE00;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all ;
+	-ms-transition: 0.5s all;
+}
+.forgot-top-grids {
+	margin: 1em 0em;
+	padding:0em 1.5em
+}
+.login-block label.checkbox {
+	margin-left: 1.3em;
+	margin-top: 0;
+	font-size: 1em;
+	color: #555;
+	font-weight: 400;
+	display: inline-block;
+	cursor: pointer;
+}
+.forgot {
+	float: right;
+	margin-top: 0.3em;
+}
+.forgot a {
+	font-size: 0.75em;
+	color:#FC8213;
+	font-weight: 600;
+	display: block;
+	text-transform: uppercase;
+}
+.forgot a:hover{
+	color:#68AE00;
+}
+.login-block h2{
+	color:#68AE00;
+	font-size:0.875em;
+	margin:1.2em 0;
+	text-align:center;
+	font-family: 'Carrois Gothic', sans-serif;
+}
+/*--*/
+.login-icons ul {
+	text-align:center;
+}
+.login-icons ul li{
+	display: inline-block;
+	margin: 0 0.5em;
+}
+.login-icons ul li a{
+	display:block;
+}
+.login-icons i.fa.fa-facebook, .login-icons i.fa.fa-twitter, .login-icons i.fa.fa-google-plus {
+	font-size: 1em;
+	color: #FFFFFF;
+	width: 33px;
+	height: 33px;
+	line-height: 34px;
+	vertical-align: middle;
+	background: #3b5998;
+	transition: 0.5s all;
+}
+.login-icons i.fa.fa-facebook:hover, .login-icons i.fa.fa-twitter:hover, .login-icons i.fa.fa-google-plus:hover {
+	border-radius: 35px;
+}
+.login-icons i.fa.fa-twitter{
+	background:#55acee;
+}
+.login-icons i.fa.fa-google-plus{
+	background:#dc4e41;
+}
+.login-icons i.fa.fa-dribbble{
+	background:#ea4c89;
+}
+.forgot-grid{
+	float:left;
+}
+.forgot-grid ul {
+	margin:0;
+	padding: 0px;
+}
+.forgot-grid ul li {
+	list-style: none;
+	display: inline-block;
+}
+.forgot-grid ul li input[type="checkbox"] {
+	display: none;
+}
+.forgot-grid ul li input[type="checkbox"]+label {
+	position: relative;
+	padding-left: 31px;
+	color: #FC8213;
+	display: inline-block;
+	cursor: pointer;
+	font-size: .75em;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.forgot-grid ul li input[type="checkbox"]+label span:first-child {
+	width: 17px;
+	height: 17px;
+	display: inline-block;
+	border: 2px solid #FC8213;
+	position: absolute;
+	left: 0;
+
+}
+.forgot-grid ul li input[type="checkbox"]:checked+label span:first-child:before {
+	content: "";
+	background:url(../img/tick.png)no-repeat 1px -1px;
+	position: absolute;
+	left: 1px;
+	top: 4px;
+	font-size: 10px;
+	width: 10px;
+	height: 10px;
+}
+
+
+.forgot-grid-new{
+	float:left;
+}
+.forgot-grid-new ul {
+	margin:0;
+	padding: 0px;
+}
+.forgot-grid-new ul li {
+	list-style: none;
+	display: inline-block;
+}
+.forgot-grid-new ul li input[type="checkbox"] {
+	display: none;
+}
+.forgot-grid-new ul li input[type="checkbox"]+label {
+	position: relative;
+	padding-left: 31px;
+	color: #FC8213;
+	display: inline-block;
+	cursor: pointer;
+	font-size: .75em;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.forgot-grid-new ul li input[type="checkbox"]+label span:first-child {
+	width: 17px;
+	height: 17px;
+	display: inline-block;
+	border: 2px solid #FC8213;
+	position: absolute;
+	left: 0;
+
+}
+.forgot-grid-new ul li input[type="checkbox"]:checked+label span:first-child:before {
+	content: "";
+	background:url(../img/tick2.png)no-repeat 1px -1px;
+	position: absolute;
+	left: 1px;
+	top: 4px;
+	font-size: 10px;
+	width: 10px;
+	height: 10px;
+}
+.login-block h3 {
+	font-size: 1em;
+	color: #000;
+	text-align: center;
+	margin-top: 1em;
+	font-family: 'Carrois Gothic', sans-serif;
+}
+.login-block h3 a{
+	color:#337AB7;
+}
+.login-block h3 a:hover{
+	color:#FC8213;
+}
+.login-block h5 {
+	font-size: 1em;
+	text-align: right;
+	margin-top: 1em;
+	font-family: 'Carrois Gothic', sans-serif;
+}
+.login-block h5 a {
+	color: #FC8213;
+	text-decoration: underline;
+}
+.login-block h5 a:hover {
+	color: #68AE00;
+	text-decoration: underline;
+}
+.login-page {
+	padding: 1.3em 0em;
+}
+.login-main {
+	width: 70%;
+}
+/*--login page end here--*/
+
+/*--signup page start here--*/
+.signup-page-main {
+	padding: 2em 0em;
+}
+.sign-down h4 {
+	font-size: 0.8em;
+}
+.sign-down h5 {
+	font-size: 0.83em;
+}
+.signup-main {
+	width: 70%;
+	margin: 0 auto;
+	background: #FFFFFF;
+	background-size: cover;
+	max-height: 400px;
+	box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.15);
+}
+.signup-head {
+	background: url(../img/login.jpg)no-repeat;
+	background-size: cover;
+	min-height: 150px;
+}
+.signup-head h1 {
+	font-size:3em;
+	color:#FFF;
+	padding: 1em 0em 0em 0em;
+	text-align: center;
+	font-family: 'Carrois Gothic', sans-serif;
+}
+.signup-block {
+	padding: 1em 1em;
+}
+.signup-block input[type="text"], .signup-block input[type="password"] {
+	font-size: 0.9em;
+	padding: 5px 5px;
+	width: 100%;
+	color:#686967;
+	outline: none;
+	border: 1px solid #D3D3D3;
+	border-radius: 5px;
+	-ms-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	background:#F5F5F5;
+	margin: 0em 0em 1.5em 0em;
+}
+.signup-block input[type="submit"] {
+	border: none;
+	outline: none;
+	cursor: pointer;
+	color: #fff;
+	background: #337AB7;
+	width: 100%;
+	margin: 0 auto;
+	border-radius: 3px;
+	padding: 0.5em 1em;
+	font-size: 1em;
+	display: block;
+	font-family: 'Carrois Gothic', sans-serif;
+}
+.signup-block input[type="submit"]:hover{
+	background:#68AE00;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all ;
+	-ms-transition: 0.5s all;
+}
+.sign-down h4 {
+	font-size: 1em;
+	color: #000;
+	text-align: center;
+	font-family: 'Carrois Gothic', sans-serif;
+}
+.sign-down h4 a {
+	font-size: 1em;
+	color: #000;
+	text-align: center;
+
+	display: inline-block;;
+}
+.sign-down h4 a:hover{
+	color:#68AE00;
+}
+.sign-down h5 {
+	font-size: 1em;
+	text-align: center;
+	margin-top: 1em;
+	font-family: 'Carrois Gothic', sans-serif;
+}
+.sign-down h5 a {
+	color: #337AB7;
+	text-decoration: underline;
+}.sign-down h5 a:hover {
+	 color:#68AE00;
+ }
+/*--signup page end here--*/
+
+
 /* dropdown menu */
 @media (min-width: 1025px) {
 	.header-navigation > ul > li:hover > .dropdown-menu {
@@ -3081,3 +3433,43 @@ Styler Panel
 .fancybox-opened {
   z-index: 100001;
 }
+
+/* Test Section */
+.Tabs {
+	margin-bottom: -1px;
+	padding: 3px 10px 0px 10px;
+}
+
+.Tabs a {
+	border: 1px solid #AAA;
+	display: inline-block;
+	padding: 3px 15px;
+	text-decoration: none;
+	color: #333;
+	background: #F5F5F5;
+	border-radius: 8px 8px 0px 0px;
+	-moz-border-radius: 8px 8px 0px 0px;
+}
+
+.Tabs a:hover {
+	background: #F7F7F7;
+	color: #555;
+}
+
+.Tabs a.Active {
+	border: 1px solid #888;
+	background: #FFF;
+	border-bottom: 1px solid #FFF;
+}
+
+.TabBody {
+	border: 1px solid #888;
+	padding: 20px;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+}
+
+.ValidXHTML {
+	text-align: right;
+}
+/* End Test Section */

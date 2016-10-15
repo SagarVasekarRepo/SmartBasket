@@ -10,6 +10,16 @@
 <?php
 require_once "head.php"
 ?>
+<style>
+    .form-all {
+        margin: 0px auto;
+        padding-top: 0px;
+        width: 690px;
+        color: Black !important;
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, sans-serif;
+        font-size: 14px;
+    }
+</style>
 <!-- Head END -->
 
 <!-- Body BEGIN -->
@@ -68,6 +78,7 @@ require_once "topbar.php"
         <!-- BEGIN TABS AND TESTIMONIALS -->
 
         <!-- END TABS AND TESTIMONIALS -->
+        <font face="Lucida Grande" size="14px">
         <form action="#" role="form">
         <div class="form-all">
 
@@ -350,6 +361,7 @@ require_once "topbar.php"
 
         </div>
         </form>
+
 
 
     </div>

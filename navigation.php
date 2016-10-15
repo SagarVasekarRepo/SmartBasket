@@ -60,8 +60,21 @@
                 Contact Us
             </a>
         </li>
-        <li class="dropdown dropdown-megamenu">
-            <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="javascript:;">
+        <?php
+        if($thisPage == "Feedback")
+        {
+        ?>
+        <li class="dropdown active">
+            <?php
+            }
+            else
+            {
+            ?>
+        <li class="dropdown">
+            <?php
+            }
+            ?>
+            <a href="feedback.php">
                 Feedback
             </a>
         </li>

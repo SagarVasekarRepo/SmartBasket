@@ -3,7 +3,7 @@
 <!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
 <!--[if !IE]><!-->
 <?php $thisPage="Home"; ?>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <!--<![endif]-->
 
 <!-- Head BEGIN -->
@@ -20,12 +20,16 @@ require_once "head.php"
     ?>
     <!-- END STYLE CUSTOMIZER -->
 
+
     <!-- Top Bar BEGIN -->
     <?php
     require_once "topbar.php"
 
     ?>
     <!-- Top Bar END -->
+
+
+
 
     <!-- BEGIN HEADER -->
     <div class="header">
@@ -320,6 +324,7 @@ require_once "head.php"
     <!-- BEGIN CORE PLUGINS (REQUIRED FOR ALL PAGES) -->
     <!--[if lt IE 9]>
     <script src="assets/plugins/respond.min.js"></script>
+
     <![endif]--> 
     <script src="assets/plugins/jquery.min.js" type="text/javascript"></script>
     <script src="assets/plugins/jquery-migrate.min.js" type="text/javascript"></script>
@@ -333,7 +338,6 @@ require_once "head.php"
 
     <script src="assets/corporate/scripts/layout.js" type="text/javascript"></script>
     <script src="assets/pages/scripts/bs-carousel.js" type="text/javascript"></script>
-
 
     <!-- END PAGE LEVEL JAVASCRIPTS -->
 
