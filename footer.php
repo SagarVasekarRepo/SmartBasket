@@ -26,7 +26,7 @@
                     1200 South, 730 East<br>
                     Salt Lake City, US<br>
                     Phone: +1 385 499 7759<br>
-                    Email: <a href="mailto:info@metronic.com">shrikant.tambe@utah.edu</a><br>
+                    Email: <a href="mailto:info@metronic.com">info.smartbasket@gmail.com</a><br>
                     Skype: <a href="skype:metronic">sst_shrikant@gmail.com</a>
                 </address>
 

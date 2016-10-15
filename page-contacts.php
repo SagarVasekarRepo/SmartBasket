@@ -107,7 +107,7 @@ require_once "head.php"
                   <address>
                     <strong>Email</strong><br>
                     <a href="mailto:info@email.com">info@smartbasket.com</a><br>
-                    <a href="mailto:support@example.com">shrikant.tambe@utah.edu</a>
+                    <a href="mailto:support@example.com">info.smartbasket@gmail.com</a>
                   </address>
                   <ul class="social-icons margin-bottom-40">
                     <li><a href="javascript:;" data-original-title="facebook" class="facebook"></a></li>
